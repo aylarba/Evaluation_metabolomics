@@ -1,8 +1,4 @@
 
-# Install packages if you haven't already
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
 BiocManager::install(c("MSnbase", "xcms", "metaboAnalyst", "ggplot2"))
 
 # Load packages
